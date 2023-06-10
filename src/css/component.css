@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+/* .postdiv{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+    border: 2px solid black;
+} */
+.rib{
+    height: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.postform{
+    margin-left: 35%;
+}
+
+.postform input{
+    width: 50%;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#destination{
+    width: 50%;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.postbtn{
+    width: 50%;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/* retrieve data css  */
+
+.append{
+    /* border: 2px solid black; */
+    /* width: 30%; */
+    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 50px;
+
+}
+.append div{
+    border: 2px solid black;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.del{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgba(83, 83, 198, 0.529);
+    color: black;
+    font-weight: 400;
+}
